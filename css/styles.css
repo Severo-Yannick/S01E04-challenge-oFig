@@ -16,3 +16,15 @@ body {
   color: #FFF;
   font-weight: bold;
 }
+
+.content__title {
+  background-color: #666;
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.3em;
+}
+.italic {
+  font-size: 1.1em;
+  font-style: italic;
+}
