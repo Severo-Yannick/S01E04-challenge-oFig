@@ -76,3 +76,10 @@ body {
 .card__oldprice {
   font-weight: 500;
 }
+
+.footer {
+  background-color: #666;
+  color: #FFF;
+  text-align: center;
+  padding: 20px;
+}
