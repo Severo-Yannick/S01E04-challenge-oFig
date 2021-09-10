@@ -28,3 +28,51 @@ body {
   font-size: 1.1em;
   font-style: italic;
 }
+
+.cards {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.card {
+  border: 1px solid #ccc;
+  margin: 0.5rem;
+}
+.card__container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0.5rem;
+}
+.card__category {
+  font-size: 1.1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #ccc;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.card__title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 15px 0px;
+}
+.card__content {
+  margin-bottom: 15px;
+}
+.card__action {
+  background-color: #C80000;
+  color: #FFF;
+  padding: 20px;
+}
+.card__action {
+  display: flex;
+  justify-content: space-between;
+}
+.card__price {
+  font-weight: bold;
+}
+.card__oldprice {
+  font-weight: 500;
+}
